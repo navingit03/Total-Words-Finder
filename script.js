@@ -7,6 +7,6 @@ function convert(){
         alert("Enter a sentence")
         return;
     }
-    const arr=str.split("\\s+");
+    const arr=str.split(/\s+/);
     result.innerHTML="Total no of words : "+arr.length;
 }
